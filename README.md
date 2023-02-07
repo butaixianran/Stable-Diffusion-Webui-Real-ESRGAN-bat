@@ -6,7 +6,7 @@ That's because the Stable Diffusion is still in your VRAM, so not much left for 
 
 # How to use
  **(Windows only)**
-* It uses Real-ESRGAN installed in your Stable Diffusion Webui folder. So, make sure you can use `R-Esrgan-x4plus` as a upscaler in Stable Diffusion Webui.
+* It uses the Real-ESRGAN installed in your Stable Diffusion Webui folder. So, make sure you can use `R-Esrgan-x4plus` as a upscaler in Stable Diffusion Webui.
 * Download this project's: `upscale.bat` and `upscale.py` files.
 * Put them in to your Stable Diffusion Webui folder, **NOT** in any subfolder.
 * Make sure you have python in your environment.
