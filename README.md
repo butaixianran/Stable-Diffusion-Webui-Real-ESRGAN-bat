@@ -1,10 +1,11 @@
-# Stable Diffusion Webui Real ESRGAN .bat (Windows only)
+# Stable Diffusion Webui Real ESRGAN .bat
 In Stable Diffusion Webui, when running Hires.fix with multiple images, we often get a "CUDA out of memory" error.
 That's because the Stable Diffusion is still in your VRAM, so not much left for Hires.fix's Upscalers' AI. 
 
 **With this project's .bat file, you can run Upscaler without launch Stable Diffusion webui. So you can batch upscale a whole folder's images at once, and with sizex4 as default, without any CUDA memory issue.**
 
 # How to use
+ **(Windows only)**
 * It uses Real-ESRGAN installed in your Stable Diffusion Webui folder. So, make sure you can use `R-Esrgan-x4plus` as a upscaler in Stable Diffusion Webui.
 * Download this project's: `upscale.bat` and `upscale.py` files.
 * Put them in to your Stable Diffusion Webui folder, **NOT** in any subfolder.
