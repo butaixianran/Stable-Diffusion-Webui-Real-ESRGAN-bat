@@ -7,7 +7,7 @@ set RESRGAN_output=outputs/RealESRGAN
 set RESRGAN_model_name=RealESRGAN_x4plus
 set RESRGAN_model_path=models/RealESRGAN/RealESRGAN_x4plus.pth
 rem to use fp32, set RESRGAN_fp=--fp32
-rem to not use half precision, set RESRGAN_fp to empty
+rem to use half precision, set RESRGAN_fp to empty
 set RESRGAN_fp=
 echo activate venv
 call .\venv\Scripts\activate
