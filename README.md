@@ -23,7 +23,7 @@ model_name=RealESRGAN_x4plus
 model_path=models/RealESRGAN/RealESRGAN_x4plus.pth
 
 to use fp32, set RESRGAN_fp=--fp32
-to not use half precision, set RESRGAN_fp to empty
+to use half precision, set RESRGAN_fp to empty
 RESRGAN_fp=
 ```
 ----
