@@ -2,7 +2,7 @@
 In Stable Diffusion Webui, when running Hires.fix with multiple images, we often get a "CUDA out of memory" error.
 That's because the Stable Diffusion is still in your VRAM, so not much left for Hires.fix's Upscalers' AI. 
 
-**With this project's .bat file, you can run Upscaler without launch Stable Diffusion webui. So you can batch upscale a whole folder's images at once, and with sizex4 as default, without any CUDA memory issue.**
+**With this tool, you can run Hires.fix's Upscaler without launch Stable Diffusion webui. So you can batch upscale a whole folder's images at once, and with sizex4 as default, without any CUDA memory issue.**
 
 # How to use
  **(Windows only)**
