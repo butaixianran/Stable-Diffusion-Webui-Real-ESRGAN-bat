@@ -26,3 +26,7 @@ to use fp32, set RESRGAN_fp=--fp32
 to not use half precision, set RESRGAN_fp to empty
 RESRGAN_fp=
 ```
+----
+
+Reference:
+https://github.com/xinntao/Real-ESRGAN
